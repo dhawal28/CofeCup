@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Cofecup - Best coffee shop</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <a href="/" style="text-decoration:none;"><h1 class="name">CofeCup</h1></a>
+        <ul class="nav-list">
+          <li class="nav-items"><a href="#">Home</a></li>
+          <li class="nav-items"><a href="#services">Services</a></li>
+          <li class="nav-items"><a href="#about">About</a></li>
+          <li class="nav-items"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <!-- Hamburger -->
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Intro Section -->
+      <section class="intro" id="intro">
+        <div class="content">
+          <h1 class="content-heading">Welcome To Best Coffee shop in the city</h1>
+          <p class="content-para">We are here to server you the best quality coffee with many special varities . So what are you waiting for ?? Order your coffee now</p>
+          <button class="order-btn">Order</button>
+        </div>
+        <div class="intro-img">
+          <img src="./Images/coffee-cup.png" alt="Coffee" />
+        </div>
+      </section>
+
+      <!-- Our Services Section -->
+      <section class="services" id="services">
+        <h1>Our Services</h1>
+        <span class="boxes">
+          <div class="service-box">
+            <img src="./Images/percentage-icon.svg" alt="offer" />
+            <h1>Best Offers</h1>
+            <p>We will give you best offers and discounts on your orders. You can get best meals in affordable price without any compromise in quality.</p>
+          </div>
+          <div class="service-box">
+            <img src="./Images/map-icon.svg" alt="delievery" />
+            <h1>Fast Delievery</h1>
+            <p>We will provide you fast home delievery in the every street of the city. If you get your food delievered in more than 1 hour than your money will be refunded.</p>
+          </div>
+          <div class="service-box">
+            <img src="./Images/edit-icon.svg" alt="custom" />
+            <h1>Custom Order</h1>
+            <p>You can customize your order just through a phone call on the given number or you can directly contact us through this website also.</p>
+          </div>
+        </span>
+      </section>
+      <!-- About Us section -->
+      <section class="about" id="about">
+        <h1>About Us</h1>
+        <div class="about-content">
+          <p>Taste and See CofeCup and Gallery offers a unique coffee house environment unlike any other in your city. We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and enjoy that tailor-made cup of coffee. If you need to work, we have a seating area created specifically for you. If you need to rest, we have a soft-seating area in front of a stone fire place that is perfect for your weary mind and body. We offer a delicious variety of coffee from Safehouse Coffee made by our professionally trained baristas. We have everything from classic coffee to our house made specialty beverages.  All of our sauces & syrups are made in-house with all natural ingredients (no chemicals or preservatives) ensuring you the highest quality in taste & health.  You can complete your coffee with one of our delicious sweet treats made by our very own baker. We look forward to serving you at Taste & See CofeCup and Gallery!</p>
+          <div class="about-image">
+            <img src="./Images/side-img.jpg" alt="coffee" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us Section -->
+      <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <form action="sumbit" class="contact-form">
+          <input type="text" placeholder="Write your name here..." class="username">
+          <input type="text" placeholder="Write your email address here..." class="email">
+          <textarea  placeholder="Write the description here..." class="description"></textarea>
+          <button type="button" class="button">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>copyright&copy;CofecupwithDhawalGupta - All Rights Reserved</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
